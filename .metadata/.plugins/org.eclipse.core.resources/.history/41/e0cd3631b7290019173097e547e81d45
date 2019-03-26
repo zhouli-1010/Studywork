@@ -1,0 +1,44 @@
+
+
+public class firsttest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = digitCounts( 1, 12 );
+		System.out.println(x);
+	}
+
+    public static int digitCounts(int k, int n) {
+    	int[] x = new int[n+1];
+    	int cnt = 0;
+    	String s1 = "";
+    	
+    	for (int i = 0 ;i <= n ; i++) {
+    	 	x[i] = i;
+    	}
+    
+    
+		for (int i = 0 ;i <= n ; i++) {
+    		s1 = String.valueOf( x[i] );
+    		
+    		for (int j= 0 ; j < s1.length(); j++){
+    			if(s1.equals(String.valueOf(k))){
+    				cnt = cnt + 1;
+    			}
+    		}
+	    }
+		return cnt;
+    }
+    
+    
+    
+    public void myEmployee(){
+    	Employee[] staff = new Employee[3];
+    	Employee e = new Employee("Harry", 1000.10);
+    	
+    }
+
+}

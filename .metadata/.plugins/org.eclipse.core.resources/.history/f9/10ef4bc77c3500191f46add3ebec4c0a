@@ -1,0 +1,43 @@
+package corejava;
+
+import java.util.Collection;
+
+
+
+
+public class Employee  implements Comparable{
+	private String name;
+	private double salary;
+//private Date hireDate;
+	
+	public Employee(String n, double s){
+		this.name = n;
+		this.salary = s;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void raiseSalary(double byPt){
+		double raise = salary * byPt / 100;
+		salary += raise;
+		
+	}
+
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		Employee otremp = (Employee) o;
+		return Double.compare(salary, otremp.salary);
+		
+	}
+	
+	
+	///add by system
+	
+
+}

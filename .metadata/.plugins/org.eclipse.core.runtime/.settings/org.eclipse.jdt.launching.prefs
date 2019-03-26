@@ -1,0 +1,3 @@
+#Thu Feb 07 17:48:15 JST 2019
+eclipse.preferences.version=1
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1549353607033" defaultVMConnector\="">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1549353607033" javadocURL\="http\://java.sun.com/j2se/1.5.0/docs/api/" name\="jdk1.5.0_11" path\="C\:\\jdk1.5.0_11"/>\r\n</vmType>\r\n</vmSettings>\r\n

@@ -1,0 +1,52 @@
+package corejava;
+
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Date;
+
+
+
+
+public class Employee  implements Comparable<Employee>,ActionListener{
+	private String name;
+	private double salary;
+//private Date hireDate;
+	
+	public Employee(String n, double s){
+		this.name = n;
+		this.salary = s;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void raiseSalary(double byPt){
+		double raise = salary * byPt / 100;
+		salary += raise;
+		
+	}
+
+	public int compareTo(Employee other) {
+		// compare salary
+		Employee otremp = other;
+		return Double.compare(salary, otremp.salary);
+		
+	}
+
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		System.out.println("At the tone, time is" + new Date());
+		Toolkit.getDefaultToolkit().beep();
+		
+		
+		
+	}
+
+
+}

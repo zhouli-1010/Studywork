@@ -1,0 +1,14 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.common.frameworks,1.1.200.v200805140020,org.eclipse.wst.common.frameworks,1553559280684
+started,bundle,org.eclipse.wst.common.project.facet.core,1.3.3.v200809102124,org.eclipse.wst.common.project.facet.core,1553559280790
+started,bundle,org.eclipse.mylyn.commons.net,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.commons.net,1553559280878
+started,bundle,org.eclipse.jst.common.project.facet.core,1.3.1.v200807031821,org.eclipse.jst.common.project.facet.core,1553559281139
+started,bundle,org.eclipse.mylyn.commons.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.commons.ui,1553559281867
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.bugzilla.core,1553559282657
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.bugzilla.ui,1553559282963
+started,bundle,org.eclipse.ui.forms,3.3.101.v20080708_34x,org.eclipse.ui.forms,1553559283383
+started,bundle,org.eclipse.mylyn.tasks.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.tasks.ui,1553559283510
+started,bundle,org.eclipse.mylyn.monitor.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.monitor.ui,1553559283751
+started,bundle,org.eclipse.mylyn.team.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.team.ui,1553559283851
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.2.v200809031518,org.eclipse.wst.ws.service.policy.ui,1553559284117
+closed,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1553559293659
